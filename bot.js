@@ -7,7 +7,7 @@ client.on('ready', () => {
     setInterval(() => {
         client.channels.find(c => c.id == '485710163966296064').send('ff').then(message => {message.delete(5000)});
     }, 1000);
-    message.delete(5000);
+
 });
 
 client.login(process.env.BT);
