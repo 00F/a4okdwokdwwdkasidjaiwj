@@ -1,3 +1,6 @@
+const Discord = require('discord.js');
+const client = new Discord.Client();
+
 client.on('ready', () => {
     console.log('Ready.');
     var words = ["الله الله ربي لا اشرك بربي شيئاً","لا اله الا الله محمد رسول الله","اللهم صل على سيدنا محمد وعلى آله وصحبه وسلم تسليماً كثيرا"];
